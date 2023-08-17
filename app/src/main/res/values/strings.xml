@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CalendarProject</string>
+    <string name="month">Month</string>
+    <string name="rightArrow"><![CDATA[->]]></string>
+    <string name="testMonth">June 2023</string>
+    <string name="leftArrow"><![CDATA[<-]]></string>
+    <string name="sundayAbbrv">SUN</string>
+    <string name="mondayAbbrv">MON</string>
+    <string name="tuesdayAbbrv">TUE</string>
+    <string name="wednesdayAbbrv">WED</string>
+    <string name="thursdayAbbrv">THUR</string>
+    <string name="fridayAbbrv">FRI</string>
+    <string name="saturdayAbbrv">SAT</string>
+</resources>
