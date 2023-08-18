@@ -11,4 +11,5 @@
     <string name="thursdayAbbrv">THUR</string>
     <string name="fridayAbbrv">FRI</string>
     <string name="saturdayAbbrv">SAT</string>
+    <string name="_1">1</string>
 </resources>

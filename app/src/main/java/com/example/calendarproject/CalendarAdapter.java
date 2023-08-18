@@ -27,6 +27,7 @@ public class CalendarAdapter extends RecyclerView.Adapter<CalendarViewHolder>{
     @Override
     public CalendarViewHolder onCreateViewHolder(@NonNull @NotNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        //Creates LayoutInflater object named inflater to use
         //The LayoutInflater class is used to instantiate the contents of layout XML files into their corresponding View objects.
         //In other words, it takes an XML file as input and builds the View objects from it.
         View view = inflater.inflate(R.layout.calendar_cell, parent,false);
