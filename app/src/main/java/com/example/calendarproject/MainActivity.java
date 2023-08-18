@@ -84,13 +84,11 @@ public class MainActivity extends AppCompatActivity implements CalendarAdapter.O
 
     @Override
     public void onItemClick(int position, String dayText) {
-        if(dayText.equals("")){
+        if(!dayText.equals("")){
             String message = "Selected Date " + dayText + " " + monthYearFromDate(selectedDate);
             Toast.makeText(this,message, Toast.LENGTH_LONG).show(); //A toast provides simple feedback about an operation in a small popup.
             // It only fills the amount of space required for the message and the current activity remains visible and interactive. T
             // Toasts automatically disappear after a timeout.
-
-
         }
     }
 }
